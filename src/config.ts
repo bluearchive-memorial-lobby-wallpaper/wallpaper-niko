@@ -225,6 +225,9 @@ export const WALLPAPER_DEFINITION = defineWallpaper({
     atlases: MODEL.atlases,
     spineVersion: MODEL.spineVersion,
     designViewport: MODEL.designViewport,
+    slotBlendModeOverrides: {
+      light: "screen",
+    },
   },
   animations: {
     intro: MODEL.introAnimation,
